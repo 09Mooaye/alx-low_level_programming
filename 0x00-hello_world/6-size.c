@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 /**
- *main - Prints size of characters
+ * main - Print size of characters
+ *
+ * Description: Print various types run on a computer
  *
  * Return : Always 0 (Success)
  */
