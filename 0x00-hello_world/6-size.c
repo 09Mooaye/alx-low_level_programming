@@ -5,7 +5,7 @@
  *
  * Description: Print various types run on a computer
  *
- * Return : Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
