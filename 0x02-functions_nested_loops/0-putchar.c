@@ -1,22 +1,20 @@
 #include "main.h"
 
 /**
- * main - Entry point
- * Description: Print putchar
- * Return: always 0
+ * main - A program that prints _putchar
+ * Return: 0 - success 
  */
-int _putchar(char c)
+int main(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
+	/* variable declearations*/
+	char var[] = "_putchar";
+	int i;
+	int lenVar = sizeof(var) / sizeof(var[0]);
+
+	for (i = 0; i < lenVar - 1; i++)
+	{
+		_putchar(var[i]);
+	}
 	_putchar('\n');
-
-
 	return (0);
 }
